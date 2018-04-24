@@ -15,15 +15,7 @@ export class WatchComponent implements OnInit {
     var mins = 5;
     var hdegree = hours * 30 + (mins / 2);
     var hrotate = "rotate(" + hdegree + "deg)";
-    
-
-    
-
-
-
-
-    
-    $("#hour").css({"-moz-transform" : hrotate, "-webkit-transform" : hrotate});
+    $("#hour1").css({"-moz-transform" : hrotate, "-webkit-transform" : hrotate});
     var mdegree = mins * 6;
     var mrotate = "rotate(" + mdegree + "deg)";
     
